@@ -1,4 +1,5 @@
 Overview
+
 This project generates random mazes of customizable sizes, visualizes them in ASCII format, and can find a solution path from start to end. It's built with pure JavaScript and runs in Node.js 
 
 Features
@@ -10,6 +11,8 @@ Displays the solution path overlaid on the maze
 Works as both a standalone application and importable module
 
 How It Works
+
+
 Maze Generation Algorithm
 The maze is generated using the Depth-First Search algorithm with recursive backtracking:
 
@@ -29,6 +32,8 @@ If there are no unvisited neighbors, backtrack to the previous cell
 
 
 Maze Solving
+
+
 The maze is solved using a Depth-First Search to find a path from the start to the end:
 
 Start from the beginning cell (default is top-left)
